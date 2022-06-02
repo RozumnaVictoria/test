@@ -1,0 +1,116 @@
+body {
+background-image: url(img/fon1.jpg);
+}
+
+div#mainpage {
+background-color:#5c835c;
+position:relative;
+width:900px;
+margin:5px auto;
+box-shadow: 0px 0px 30px rgb(194, 142, 32)
+}
+
+p{
+font-family: arial;
+letter-spacing:2px;
+color: white;
+text-align: justify;
+margin: 0px 80px 0px 80px;
+margin-top: 3em; 
+margin-bottom: 1em;
+}
+
+h1, h2{
+color: white;
+text-align:center;
+}
+
+img{
+  width:850px;
+  margin: 10px 25px 30px 20px;
+  }
+  
+div.menu {
+   background-color:#4f6908;
+height:59px;
+}
+
+div.menu a{
+color:white;
+display:block;
+text-align:center;
+
+text-decoration:none;
+width:176px;
+height:40px;
+float:left;
+margin:3px 2px 4px 2px;
+font-size:14pt;
+letter-spacing:3px;
+font-family:arial;
+padding:12px 0px 0px 0px;
+
+background: #6e996a;
+  transition-property: background;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+}
+
+div.menu a:hover{
+color:#fdfdfd;
+background-color:#b89a48;
+}
+
+div.foto img{
+width:120px;
+float:center;
+margin:50px 0px 0px 50px;
+}
+
+.scale {
+  display: inline-block; 
+  overflow: hidden; 
+ }
+ .scale img {
+  transition: 1s; 
+  display: block; 
+ }
+ .scale img:hover {
+  transform: scale(1.2); 
+ }
+
+ .glow-button {
+  text-decoration: none;
+  display: inline-block;
+  padding: 15px 30px;
+  margin: 10px 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 40px 40px #FFDAB9 inset, 0 0 0 0 #FFDAB9;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: white;
+  transition: .15s ease-in-out;
+}
+.glow-button:hover {
+  box-shadow: 0 0 10px 0 #FFDAB9 inset, 0 0 10px 4px #FFDAB9;
+  color: #FFDAB9;
+}
+
+div.content img{
+  width:300px;
+height:300px;
+ }
+
+ .pic img{
+  width:200px;
+ }
+
+ .pic2 img{
+width: 650px;
+ }
+
+td, th{
+  color:#FFDEAD;
+}
+
